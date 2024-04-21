@@ -142,6 +142,11 @@ class _WaveGenSelectionWidgetState extends State<WaveGenSelectionWidget> {
                           child: Row(
                             mainAxisSize: MainAxisSize.max,
                             children: [
+                              Icon(
+                                FFIcons.ksquare,
+                                color: FlutterFlowTheme.of(context).primary,
+                                size: 36.0,
+                              ),
                               Expanded(
                                 child: Padding(
                                   padding: const EdgeInsetsDirectional.fromSTEB(
@@ -222,6 +227,11 @@ class _WaveGenSelectionWidgetState extends State<WaveGenSelectionWidget> {
                           child: Row(
                             mainAxisSize: MainAxisSize.max,
                             children: [
+                              Icon(
+                                FFIcons.ktri,
+                                color: FlutterFlowTheme.of(context).primary,
+                                size: 36.0,
+                              ),
                               Expanded(
                                 child: Padding(
                                   padding: const EdgeInsetsDirectional.fromSTEB(
@@ -302,6 +312,11 @@ class _WaveGenSelectionWidgetState extends State<WaveGenSelectionWidget> {
                           child: Row(
                             mainAxisSize: MainAxisSize.max,
                             children: [
+                              Icon(
+                                FFIcons.ksine,
+                                color: FlutterFlowTheme.of(context).primary,
+                                size: 36.0,
+                              ),
                               Expanded(
                                 child: Padding(
                                   padding: const EdgeInsetsDirectional.fromSTEB(

@@ -331,17 +331,21 @@ class _OscilloscopeWidgetState extends State<OscilloscopeWidget>
                                     color: FlutterFlowTheme.of(context)
                                         .secondaryBackground,
                                   ),
-                                  child: Text(
-                                    valueOrDefault<String>(
-                                      _model.dropDownValue,
-                                      'Measurements',
+                                  child: Padding(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
+                                        16.0, 0.0, 0.0, 0.0),
+                                    child: Text(
+                                      valueOrDefault<String>(
+                                        _model.dropDownValue,
+                                        'Measurements',
+                                      ),
+                                      style: FlutterFlowTheme.of(context)
+                                          .bodyMedium
+                                          .override(
+                                            fontFamily: 'Montserrat',
+                                            letterSpacing: 0.0,
+                                          ),
                                     ),
-                                    style: FlutterFlowTheme.of(context)
-                                        .bodyMedium
-                                        .override(
-                                          fontFamily: 'Montserrat',
-                                          letterSpacing: 0.0,
-                                        ),
                                   ),
                                 ),
                               ],
